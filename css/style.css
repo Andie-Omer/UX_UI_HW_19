@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Kobe;
+    src: url(../Kobe/kobe11-regular.ttf) format('truetype')
+}
+html {
+    font-family: Kobe;
+}
+body {
+    background-image: url(../Images/max-fuchs-Nm6ojlDO-5c-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navigationbar {
+    background-color:#8CB29D;
+    vertical-align: baseline;
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+
+}
+
+li {
+    display: inline;
+    float: right;
+    padding: 10px;
+    font-family: Kobe;
+    font-size: 20px;
+}
+
+.Contactme:hover {
+    color: #F3F1E0;
+}
+.UInav:hover {
+    color: #F3F1E0
+}
+.CaseStudy:hover {
+    color: #F3F1E0
+}
+.home:hover {
+    color: #F3F1E0
+}
+.background {
+    background-image: url(../Images/Backdrop.png);
+}
+.heroImg {
+    display: flex;
+    background-color: whitesmoke;
+    width: 850px;
+    padding: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 110px;
+    margin-bottom: 120px;
+    box-shadow: 3px 3px 3px gray, -3px -3px 3px gray;
+    border-radius: 30px;
+}
+.image {
+    justify-content: center;
+    
+}
+.bio {
+    text-align: center;
+    font-family: Kobe;
+    padding: 25px;
+    padding-right: 20px;
+   
+}
+h1 {
+    text-align: center;
+    font-family: Kobe;
+}
+h2 {
+    text-align: center;
+    font-family: Kobe;
+}
+p {
+    text-align: center;
+    font-family: Kobe;
+}
+
+
+ .row {
+    padding: 25px;
+ }
+
+  .cardContainer {
+    margin-bottom: 15px;
+    border-radius: 25px;
+    padding-bottom: 150px;
+  }
+  .card {
+  margin: 0 auto;
+  background-color: #3E4059;
+  border-radius: 0px 0px 30px 30px;
+  color: whitesmoke;
+  }
+.btn {
+    border-radius: 35px;
+    background-color: #8CB29D;
+    border: none;
+}
+.btn:hover {
+    background-color: whitesmoke;
+    color: #8CB29D;
+}
+
+h1 {
+    padding-bottom: 75px;
+    padding-top: 75px;
+    background-color: #3E4059;
+    color: white;
+}
+.button2 {
+    background-color: lightGrey;
+    padding: 15px;
+    cursor: pointer;
+    text-align:center;
+    max-width: 150px;
+    align-items: center;
+  }
+  h6 {text-align:center; font-size:36px; color:white; padding:50px; cursor:pointer;}
+  div.content{background: linear-gradient(90deg, rgba(31,227,221,1) 0%, rgba(255,53,75,1) 53%, rgba(241,255,0,1) 100%);; width:50%; margin:0 auto;}
+h3 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 20px;
+}
